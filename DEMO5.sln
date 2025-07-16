@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DEMO5", "DEMO5\DEMO5.csproj", "{58D4ED9E-C07F-4EB1-BD5D-911201CD679D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{604F8BC1-8A05-42F0-8E1B-243E72EF333F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{58D4ED9E-C07F-4EB1-BD5D-911201CD679D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D4ED9E-C07F-4EB1-BD5D-911201CD679D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D4ED9E-C07F-4EB1-BD5D-911201CD679D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604F8BC1-8A05-42F0-8E1B-243E72EF333F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604F8BC1-8A05-42F0-8E1B-243E72EF333F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604F8BC1-8A05-42F0-8E1B-243E72EF333F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604F8BC1-8A05-42F0-8E1B-243E72EF333F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using System.Security.AccessControl;
 
 namespace DEMO5
 {
@@ -304,6 +305,19 @@ namespace DEMO5
             //1.4.2 DivideByZeroExceptionv
 
             //2.ApplicationException
+
+            #endregion
+
+            #region Access Modifieres
+            //Claa Library 
+
+            //Common.TypeA typeA = new TypeA(); //Invalid TypeA is internal
+
+            // Common.TypeB typeB = new Common.TypeB(); //Valid TypeB is Public
+
+            ////typeB.X = 12; //InValid Private
+            ////typeB.Y = 12; //InValid internal
+            // typeB.Z = 12; //valid public 
 
             #endregion
 
