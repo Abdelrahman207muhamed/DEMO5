@@ -160,10 +160,50 @@
 
             #endregion
 
+            #region Null propagation operator
+            // Null propagation operator ?
+
+            //double X = default; //0
+            //bool C = default;//false
+
+            //Console.WriteLine(C);
+
+
+          /*  int[] Arr = default;*/  //null
+            /*int[] Arr = { 1, 2, 3, 4, 5 };*/  //null
+
+            //Best Practice
+            //if (Arr is not null)
+            //{
+
+            //    for (int i = 0;  i < Arr.Length; i++)
+            //        Console.WriteLine(Arr[i]);
+            //}
+
+            ////for (int i =0; (Arr is not null) && i<Arr.Length;i++)
+            ////    Console.WriteLine(Arr[i]);
 
 
 
+            //for (int i = 0;  i < Arr?.Length; i++)
+            //    Console.WriteLine(Arr[i]);
 
+
+
+            //E?.Department?.DeptaName 
+
+            //int Len = Arr is not null ? Arr.Length:0;
+
+
+
+            //int? Len = Arr?.Length;
+
+            //int Len = Arr?.Length is not null ? Arr.Length : 0;
+
+            //int Len = Arr?.Length?? -1;
+
+            //Console.WriteLine(Len);  
+            #endregion
 
 
         }
