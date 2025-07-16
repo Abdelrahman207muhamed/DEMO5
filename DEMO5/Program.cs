@@ -3,6 +3,35 @@ using System.Security.AccessControl;
 
 namespace DEMO5
 {
+    //0 -> 255
+    enum Season :byte
+    {
+        Spring =10,
+        Winter,
+        Summer,
+        Autumn
+    }
+
+
+    enum WeekDay 
+    {
+        Saturday,
+        Sunday,
+        Monday,
+        Tuesday,
+        Wendnesday,
+        Thursday,
+        Friday  
+    }
+
+    enum Gender  
+    {
+        M=1,
+        F=2,
+        Male=1,
+        Female = 2
+    }
+
     internal class Program
     {
 
@@ -320,6 +349,46 @@ namespace DEMO5
             // typeB.Z = 12; //valid public 
 
             #endregion
+
+            #region Enum
+            //Enum :Value Types
+            //Stack
+
+
+            //Season S01 = Season.Autumn;
+
+            //S01 = Season.Summer;
+
+            //Console.WriteLine(S01);
+
+            //stack
+
+
+            //CLR Represent Enum As Integer Value In memory
+
+
+            //Gender G01 = (Gender) 10;
+
+            //Console.WriteLine(G01);
+
+
+
+
+            //Gender G01 = (Gender)Enum.Parse(typeof(Gender) ,Console.ReadLine(),true);
+
+            ////UnBoxing 
+
+            //Gender G01;
+            //Enum.TryParse(typeof(Gender),Console.ReadLine(),true ,out object O1);
+
+            //G01 =(Gender) O1;
+
+
+            //Console.WriteLine(G01); 
+            #endregion
+
+
+
 
         }
     }
