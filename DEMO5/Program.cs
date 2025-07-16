@@ -1,7 +1,85 @@
-﻿namespace DEMO5
+﻿using System.Linq.Expressions;
+
+namespace DEMO5
 {
     internal class Program
     {
+
+
+        #region Exception Handling and Protective Code
+        //static void DoSomeCode()
+        //{
+        //    int X, Y, Z;
+        //    X = int.Parse(Console.ReadLine());
+        //    Y = int.Parse(Console.ReadLine());
+
+        //    Z = X / Y;
+
+        //    int[] Arr = { 1, 2, 3 };
+
+        //    Arr[99] = 10;
+
+        //}
+
+
+
+        //static void DoSomeCode()
+        //{
+        //    try
+        //    {
+        //        int X, Y, Z;
+        //        X = int.Parse(Console.ReadLine());
+        //        Y = int.Parse(Console.ReadLine());
+
+        //        Z = X / Y;
+
+        //        int[] Arr = { 1, 2, 3 };
+
+        //        Arr[99] = 10;
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //    }
+        //    finally 
+        //    {
+        //        Console.WriteLine("Finally");
+        //        //Release | Deallocate | Dissconnect | Dispose |UnManaged Resource
+        //    }
+
+        //}
+
+        //static void DoSomeProtectedCode()
+        //{
+
+        //    int X, Y, Z;
+        //    bool flag;
+        //    do
+        //    {
+        //        Console.Write("Enter First Number ");
+        //       flag = int.TryParse(Console.ReadLine(), out X);
+
+        //    } while (flag == false);
+
+
+        //    do
+        //    {
+        //        Console.Write("Enter Seconde Number ");
+        //       flag = int.TryParse(Console.ReadLine(), out Y);
+
+        //    } while (flag == false|| Y==0);
+
+        //    Z = X / Y;
+
+        //    int[] Arr = { 1, 2, 3 };
+
+        //    if (99 < Arr?.Length)
+        //    {
+        //        Arr[99] = 10;
+        //    }
+
+        //} 
+        #endregion
         static void Main()
         {
             #region  Boxing And Un Boxing
@@ -169,7 +247,7 @@
             //Console.WriteLine(C);
 
 
-          /*  int[] Arr = default;*/  //null
+            /*  int[] Arr = default;*/  //null
             /*int[] Arr = { 1, 2, 3, 4, 5 };*/  //null
 
             //Best Practice
@@ -205,6 +283,29 @@
             //Console.WriteLine(Len);  
             #endregion
 
+            #region Exception Handling and Protective Code
+            //Exception Handling and Protective Code
+
+            //DoSomeCode();
+
+            //DoSomeProtectedCode();
+
+            //Console.WriteLine("Hello After Exception");
+
+
+            //Exception 
+            //1.System Exception:-
+
+            //1.1. FormatException
+            //1.2. indexoutofException
+            //1.3. nullreferenceException
+            //1.4. ArithimaticException
+            //1.4.1 OverFlowException
+            //1.4.2 DivideByZeroExceptionv
+
+            //2.ApplicationException
+
+            #endregion
 
         }
     }
